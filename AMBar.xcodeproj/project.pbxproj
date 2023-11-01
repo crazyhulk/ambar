@@ -1,0 +1,643 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		AAFC022A2AF2375A00E356F5 /* AMBarApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = AAFC02292AF2375A00E356F5 /* AMBarApp.swift */; };
+		AAFC022C2AF2375A00E356F5 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AAFC022B2AF2375A00E356F5 /* ContentView.swift */; };
+		AAFC022E2AF2375C00E356F5 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AAFC022D2AF2375C00E356F5 /* Assets.xcassets */; };
+		AAFC02312AF2375C00E356F5 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AAFC02302AF2375C00E356F5 /* Preview Assets.xcassets */; };
+		AAFC023C2AF2375C00E356F5 /* AMBarTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = AAFC023B2AF2375C00E356F5 /* AMBarTests.swift */; };
+		AAFC02462AF2375C00E356F5 /* AMBarUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = AAFC02452AF2375C00E356F5 /* AMBarUITests.swift */; };
+		AAFC02482AF2375C00E356F5 /* AMBarUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = AAFC02472AF2375C00E356F5 /* AMBarUITestsLaunchTests.swift */; };
+		AAFC02582AF247CE00E356F5 /* api.swift in Sources */ = {isa = PBXBuildFile; fileRef = AAFC02572AF247CE00E356F5 /* api.swift */; };
+		AAFC02612AF24C1F00E356F5 /* ApiManager.m in Sources */ = {isa = PBXBuildFile; fileRef = AAFC02602AF24C1F00E356F5 /* ApiManager.m */; };
+		AAFC02642AF24EBA00E356F5 /* MusicKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AAFC02632AF24EBA00E356F5 /* MusicKit.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		AAFC02382AF2375C00E356F5 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = AAFC021E2AF2375A00E356F5 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = AAFC02252AF2375A00E356F5;
+			remoteInfo = AMBar;
+		};
+		AAFC02422AF2375C00E356F5 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = AAFC021E2AF2375A00E356F5 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = AAFC02252AF2375A00E356F5;
+			remoteInfo = AMBar;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		AAFC02262AF2375A00E356F5 /* AMBar.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AMBar.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		AAFC02292AF2375A00E356F5 /* AMBarApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AMBarApp.swift; sourceTree = "<group>"; };
+		AAFC022B2AF2375A00E356F5 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		AAFC022D2AF2375C00E356F5 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		AAFC02302AF2375C00E356F5 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		AAFC02322AF2375C00E356F5 /* AMBar.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = AMBar.entitlements; sourceTree = "<group>"; };
+		AAFC02372AF2375C00E356F5 /* AMBarTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AMBarTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		AAFC023B2AF2375C00E356F5 /* AMBarTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AMBarTests.swift; sourceTree = "<group>"; };
+		AAFC02412AF2375C00E356F5 /* AMBarUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AMBarUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		AAFC02452AF2375C00E356F5 /* AMBarUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AMBarUITests.swift; sourceTree = "<group>"; };
+		AAFC02472AF2375C00E356F5 /* AMBarUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AMBarUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		AAFC02542AF23AE500E356F5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
+		AAFC02562AF247CE00E356F5 /* Music.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Music.h; sourceTree = "<group>"; };
+		AAFC02572AF247CE00E356F5 /* api.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = api.swift; sourceTree = "<group>"; };
+		AAFC02592AF248D600E356F5 /* AMBar-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "AMBar-Bridging-Header.h"; sourceTree = "<group>"; };
+		AAFC025F2AF24C1F00E356F5 /* ApiManager.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ApiManager.h; sourceTree = "<group>"; };
+		AAFC02602AF24C1F00E356F5 /* ApiManager.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ApiManager.m; sourceTree = "<group>"; };
+		AAFC02632AF24EBA00E356F5 /* MusicKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MusicKit.framework; path = System/Library/Frameworks/MusicKit.framework; sourceTree = SDKROOT; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		AAFC02232AF2375A00E356F5 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AAFC02642AF24EBA00E356F5 /* MusicKit.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AAFC02342AF2375C00E356F5 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AAFC023E2AF2375C00E356F5 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		AAFC021D2AF2375A00E356F5 = {
+			isa = PBXGroup;
+			children = (
+				AAFC02282AF2375A00E356F5 /* AMBar */,
+				AAFC023A2AF2375C00E356F5 /* AMBarTests */,
+				AAFC02442AF2375C00E356F5 /* AMBarUITests */,
+				AAFC02272AF2375A00E356F5 /* Products */,
+				AAFC02622AF24EBA00E356F5 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		AAFC02272AF2375A00E356F5 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				AAFC02262AF2375A00E356F5 /* AMBar.app */,
+				AAFC02372AF2375C00E356F5 /* AMBarTests.xctest */,
+				AAFC02412AF2375C00E356F5 /* AMBarUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		AAFC02282AF2375A00E356F5 /* AMBar */ = {
+			isa = PBXGroup;
+			children = (
+				AAFC02542AF23AE500E356F5 /* Info.plist */,
+				AAFC02292AF2375A00E356F5 /* AMBarApp.swift */,
+				AAFC022B2AF2375A00E356F5 /* ContentView.swift */,
+				AAFC02552AF247BB00E356F5 /* api */,
+				AAFC022D2AF2375C00E356F5 /* Assets.xcassets */,
+				AAFC02322AF2375C00E356F5 /* AMBar.entitlements */,
+				AAFC022F2AF2375C00E356F5 /* Preview Content */,
+			);
+			path = AMBar;
+			sourceTree = "<group>";
+		};
+		AAFC022F2AF2375C00E356F5 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				AAFC02302AF2375C00E356F5 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		AAFC023A2AF2375C00E356F5 /* AMBarTests */ = {
+			isa = PBXGroup;
+			children = (
+				AAFC023B2AF2375C00E356F5 /* AMBarTests.swift */,
+			);
+			path = AMBarTests;
+			sourceTree = "<group>";
+		};
+		AAFC02442AF2375C00E356F5 /* AMBarUITests */ = {
+			isa = PBXGroup;
+			children = (
+				AAFC02452AF2375C00E356F5 /* AMBarUITests.swift */,
+				AAFC02472AF2375C00E356F5 /* AMBarUITestsLaunchTests.swift */,
+			);
+			path = AMBarUITests;
+			sourceTree = "<group>";
+		};
+		AAFC02552AF247BB00E356F5 /* api */ = {
+			isa = PBXGroup;
+			children = (
+				AAFC02572AF247CE00E356F5 /* api.swift */,
+				AAFC02562AF247CE00E356F5 /* Music.h */,
+				AAFC025F2AF24C1F00E356F5 /* ApiManager.h */,
+				AAFC02602AF24C1F00E356F5 /* ApiManager.m */,
+				AAFC02592AF248D600E356F5 /* AMBar-Bridging-Header.h */,
+			);
+			path = api;
+			sourceTree = "<group>";
+		};
+		AAFC02622AF24EBA00E356F5 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				AAFC02632AF24EBA00E356F5 /* MusicKit.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		AAFC02252AF2375A00E356F5 /* AMBar */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AAFC024B2AF2375C00E356F5 /* Build configuration list for PBXNativeTarget "AMBar" */;
+			buildPhases = (
+				AAFC02222AF2375A00E356F5 /* Sources */,
+				AAFC02232AF2375A00E356F5 /* Frameworks */,
+				AAFC02242AF2375A00E356F5 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = AMBar;
+			productName = AMBar;
+			productReference = AAFC02262AF2375A00E356F5 /* AMBar.app */;
+			productType = "com.apple.product-type.application";
+		};
+		AAFC02362AF2375C00E356F5 /* AMBarTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AAFC024E2AF2375C00E356F5 /* Build configuration list for PBXNativeTarget "AMBarTests" */;
+			buildPhases = (
+				AAFC02332AF2375C00E356F5 /* Sources */,
+				AAFC02342AF2375C00E356F5 /* Frameworks */,
+				AAFC02352AF2375C00E356F5 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				AAFC02392AF2375C00E356F5 /* PBXTargetDependency */,
+			);
+			name = AMBarTests;
+			productName = AMBarTests;
+			productReference = AAFC02372AF2375C00E356F5 /* AMBarTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		AAFC02402AF2375C00E356F5 /* AMBarUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AAFC02512AF2375C00E356F5 /* Build configuration list for PBXNativeTarget "AMBarUITests" */;
+			buildPhases = (
+				AAFC023D2AF2375C00E356F5 /* Sources */,
+				AAFC023E2AF2375C00E356F5 /* Frameworks */,
+				AAFC023F2AF2375C00E356F5 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				AAFC02432AF2375C00E356F5 /* PBXTargetDependency */,
+			);
+			name = AMBarUITests;
+			productName = AMBarUITests;
+			productReference = AAFC02412AF2375C00E356F5 /* AMBarUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		AAFC021E2AF2375A00E356F5 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1500;
+				LastUpgradeCheck = 1500;
+				TargetAttributes = {
+					AAFC02252AF2375A00E356F5 = {
+						CreatedOnToolsVersion = 15.0;
+						LastSwiftMigration = 1500;
+					};
+					AAFC02362AF2375C00E356F5 = {
+						CreatedOnToolsVersion = 15.0;
+						TestTargetID = AAFC02252AF2375A00E356F5;
+					};
+					AAFC02402AF2375C00E356F5 = {
+						CreatedOnToolsVersion = 15.0;
+						TestTargetID = AAFC02252AF2375A00E356F5;
+					};
+				};
+			};
+			buildConfigurationList = AAFC02212AF2375A00E356F5 /* Build configuration list for PBXProject "AMBar" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = AAFC021D2AF2375A00E356F5;
+			productRefGroup = AAFC02272AF2375A00E356F5 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				AAFC02252AF2375A00E356F5 /* AMBar */,
+				AAFC02362AF2375C00E356F5 /* AMBarTests */,
+				AAFC02402AF2375C00E356F5 /* AMBarUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		AAFC02242AF2375A00E356F5 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AAFC02312AF2375C00E356F5 /* Preview Assets.xcassets in Resources */,
+				AAFC022E2AF2375C00E356F5 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AAFC02352AF2375C00E356F5 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AAFC023F2AF2375C00E356F5 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		AAFC02222AF2375A00E356F5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AAFC02612AF24C1F00E356F5 /* ApiManager.m in Sources */,
+				AAFC022C2AF2375A00E356F5 /* ContentView.swift in Sources */,
+				AAFC02582AF247CE00E356F5 /* api.swift in Sources */,
+				AAFC022A2AF2375A00E356F5 /* AMBarApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AAFC02332AF2375C00E356F5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AAFC023C2AF2375C00E356F5 /* AMBarTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AAFC023D2AF2375C00E356F5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AAFC02482AF2375C00E356F5 /* AMBarUITestsLaunchTests.swift in Sources */,
+				AAFC02462AF2375C00E356F5 /* AMBarUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		AAFC02392AF2375C00E356F5 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = AAFC02252AF2375A00E356F5 /* AMBar */;
+			targetProxy = AAFC02382AF2375C00E356F5 /* PBXContainerItemProxy */;
+		};
+		AAFC02432AF2375C00E356F5 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = AAFC02252AF2375A00E356F5 /* AMBar */;
+			targetProxy = AAFC02422AF2375C00E356F5 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		AAFC02492AF2375C00E356F5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MACOSX_DEPLOYMENT_TARGET = 12.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = NO;
+				SDKROOT = macosx;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		AAFC024A2AF2375C00E356F5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MACOSX_DEPLOYMENT_TARGET = 12.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = NO;
+				SDKROOT = macosx;
+				SWIFT_COMPILATION_MODE = wholemodule;
+			};
+			name = Release;
+		};
+		AAFC024C2AF2375C00E356F5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_ENTITLEMENTS = AMBar/AMBar.entitlements;
+				CODE_SIGN_IDENTITY = "Apple Development";
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"AMBar/Preview Content\"";
+				DEVELOPMENT_TEAM = GWG2TQ5XG2;
+				ENABLE_HARDENED_RUNTIME = YES;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = AMBar/Info.plist;
+				INFOPLIST_KEY_LSApplicationCategoryType = "";
+				INFOPLIST_KEY_LSUIElement = YES;
+				INFOPLIST_KEY_NSAppleEventsUsageDescription = "who is ur father?";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 12.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = foo.bar.foofoo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_OBJC_BRIDGING_HEADER = "AMBar/api/AMBar-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		AAFC024D2AF2375C00E356F5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_ENTITLEMENTS = AMBar/AMBar.entitlements;
+				CODE_SIGN_IDENTITY = "Apple Development";
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"AMBar/Preview Content\"";
+				DEVELOPMENT_TEAM = GWG2TQ5XG2;
+				ENABLE_HARDENED_RUNTIME = YES;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = AMBar/Info.plist;
+				INFOPLIST_KEY_LSApplicationCategoryType = "";
+				INFOPLIST_KEY_LSUIElement = YES;
+				INFOPLIST_KEY_NSAppleEventsUsageDescription = "who is ur father?";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 12.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = foo.bar.foofoo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_OBJC_BRIDGING_HEADER = "AMBar/api/AMBar-Bridging-Header.h";
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
+		AAFC024F2AF2375C00E356F5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = GWG2TQ5XG2;
+				GENERATE_INFOPLIST_FILE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 12.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.xizi.AMBarTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/AMBar.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/AMBar";
+			};
+			name = Debug;
+		};
+		AAFC02502AF2375C00E356F5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = GWG2TQ5XG2;
+				GENERATE_INFOPLIST_FILE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 12.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.xizi.AMBarTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/AMBar.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/AMBar";
+			};
+			name = Release;
+		};
+		AAFC02522AF2375C00E356F5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				"CODE_SIGN_IDENTITY[sdk=macosx*]" = "Apple Development";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = GWG2TQ5XG2;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.xizi.AMBarUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TEST_TARGET_NAME = AMBar;
+			};
+			name = Debug;
+		};
+		AAFC02532AF2375C00E356F5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				"CODE_SIGN_IDENTITY[sdk=macosx*]" = "Apple Development";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = GWG2TQ5XG2;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.xizi.AMBarUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TEST_TARGET_NAME = AMBar;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		AAFC02212AF2375A00E356F5 /* Build configuration list for PBXProject "AMBar" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AAFC02492AF2375C00E356F5 /* Debug */,
+				AAFC024A2AF2375C00E356F5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		AAFC024B2AF2375C00E356F5 /* Build configuration list for PBXNativeTarget "AMBar" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AAFC024C2AF2375C00E356F5 /* Debug */,
+				AAFC024D2AF2375C00E356F5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		AAFC024E2AF2375C00E356F5 /* Build configuration list for PBXNativeTarget "AMBarTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AAFC024F2AF2375C00E356F5 /* Debug */,
+				AAFC02502AF2375C00E356F5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		AAFC02512AF2375C00E356F5 /* Build configuration list for PBXNativeTarget "AMBarUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AAFC02522AF2375C00E356F5 /* Debug */,
+				AAFC02532AF2375C00E356F5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = AAFC021E2AF2375A00E356F5 /* Project object */;
+}
